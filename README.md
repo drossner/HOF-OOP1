@@ -11,12 +11,12 @@ Wenn möglich werden mehrere Lösungsvorschläge in Kommentaren gegeben.
 
 ## Inhalt:
 * Mid-Crashkurs
-    * Frage 1: [EvenNumber](blob/main/src/MidCrashkurs/EvenNumber.java)
-    * Frage 2: [TextRepeater](blob/main/src/MidCrashkurs/TextRepeater.java)
+    * Frage 1: [EvenNumber](src/MidCrashkurs/EvenNumber.java)
+    * Frage 2: [TextRepeater](src/MidCrashkurs/TextRepeater.java)
 * End-Crashkurs
-    * Frage 1: [Ruler](blob/main/src/EndCrashkurs/Ruler.java)
-    * Frage 2: [CheckFifty](blob/main/src/EndCrashkurs/CheckFifty.java)
-    * Frage 3: [Calc](blob/main/src/EndCrashkurs/Calc.java)
-    * Frage 4: [JavaRocks](blob/main/src/EndCrashkurs/JavaRocks.java)
-    * Frage 5: [Power](blob/main/src/EndCrashkurs/Power.java)
-    * Frage 6: [RandomArray](blob/main/src/EndCrashkurs/RandomArray.java)
+    * Frage 1: [Ruler](src/EndCrashkurs/Ruler.java)
+    * Frage 2: [CheckFifty](src/EndCrashkurs/CheckFifty.java)
+    * Frage 3: [Calc](src/EndCrashkurs/Calc.java)
+    * Frage 4: [JavaRocks](src/EndCrashkurs/JavaRocks.java)
+    * Frage 5: [Power](src/EndCrashkurs/Power.java)
+    * Frage 6: [RandomArray](src/EndCrashkurs/RandomArray.java)

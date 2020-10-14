@@ -14,6 +14,8 @@ package EndCrashkurs;
 public class Ruler {
     public static void main(String[] args){
         ruler();
+//        rulerStatic();
+//        rulerTutor();
     }
 
     /**
@@ -22,8 +24,8 @@ public class Ruler {
     static void ruler(){
         String t = "1 ";
         for(int i=1;i<=5;i++){
-            System.out.println("Lin"+(i)+" :: "+t);
-            t += i+1 + " " + t;
+            System.out.println("Lin" + (i) + " :: " + t);
+            t += (i+1) + " " + t;
         }
     }
 
@@ -41,7 +43,7 @@ public class Ruler {
     /**
      * Lösung des Tutors.
      */
-    void rulerTutor(){
+    static void rulerTutor(){
         String ruler1 = "1";
         String ruler2 = ruler1 + " 2 " + ruler1;
         String ruler3 = ruler2 + " 3 " + ruler2;

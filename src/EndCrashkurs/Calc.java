@@ -3,7 +3,8 @@ package EndCrashkurs;
 /**
  * Frage 3:
  *
- * Schreiben Sie eine Methode, die zwei Integer übernimmt und diese für Operationen mit den vier Grundrechenarten und Modulo verwendet. Es sollen sowohl die Rechnungen als auch die Ergebnisse ausgegeben werden.
+ * Schreiben Sie eine Methode, die zwei Integer übernimmt und diese für Operationen mit den vier Grundrechenarten und
+ *  Modulo verwendet. Es sollen sowohl die Rechnungen als auch die Ergebnisse ausgegeben werden.
  *
  * Beispiel: calc(42, 8);
  *
@@ -27,11 +28,11 @@ public class Calc {
      * Alle anderen Lösungen werden super lang und haben keinen Vorteil.
      */
     static void calc(int a,int b){
-        System.out.println(a+" + "+b+" = "+(a+b));
-        System.out.println(a+" - "+b+" = "+(a-b));
-        System.out.println(a+" * "+b+" = "+(a*b));
-        System.out.println(a+" / "+b+" = "+(a/b));
-        System.out.println(a+" % "+b+" = "+(a%b));
+        System.out.println( a + " + " + b + " = " + (a + b) );
+        System.out.println( a + " - " + b + " = " + (a - b) );
+        System.out.println( a + " * " + b + " = " + (a * b) );
+        System.out.println( a + " / " + b + " = " + (a / b) );
+        System.out.println( a + " % " + b + " = " + (a % b) );
     }
 
     /**

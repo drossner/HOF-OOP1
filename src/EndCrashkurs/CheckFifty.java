@@ -46,7 +46,7 @@ public class CheckFifty {
      */
     static String gambleTernaer(){
         double rand = Math.random()*100;
-        String result = rand+(rand <= 50 ? " <= ":" > ")+50;
+        String result = rand + ( rand <= 50 ? " <= ":" > " ) + 50;
         return result;
     }
 

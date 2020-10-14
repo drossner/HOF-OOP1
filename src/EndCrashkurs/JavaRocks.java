@@ -10,6 +10,6 @@ public class JavaRocks {
         test();
     }
     public static void test(){
-        System.out.println("Java rocks!");
+        System.out.println( "Java rocks!" );
     }
 }

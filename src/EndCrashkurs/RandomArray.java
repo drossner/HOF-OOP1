@@ -13,7 +13,7 @@ package EndCrashkurs;
  * 23.282033438183536 }
  */
 public class RandomArray {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         randomArray(2, 10);
         randomArray(3, 42);
     }
@@ -23,8 +23,8 @@ public class RandomArray {
      */
     static double[] randomArray(int aSize, int aUpperBound) {
         double[] ret = new double[aSize];
-        for(int i=0;i<aSize;i++){
-            ret[i] = Math.random()*aUpperBound;
+        for ( int i=0; i<aSize; i++ ) {
+            ret[i] = Math.random() * aUpperBound;
         }
         return ret;
     }

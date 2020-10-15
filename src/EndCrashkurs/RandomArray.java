@@ -50,7 +50,7 @@ public class RandomArray {
 
             // here I check if random generated integer which is cast to a double, equals/or is greater than the aUpperBound (max value)
             if(random>=aUpperBound) {
-                random -= rand.nextDouble(); // if it is, I will generate a count which is smaller than 1 but greater than 0 (e.g. 0.1, 0.2, 0.99999, anything but not so it wont falsify my result
+                random -= rand.nextDouble(); // if it is, I will generate a count which is smaller than 1 but greater than 0 (e.g. 0.1, 0.2, 0.99999), anything but not so it wont falsify my result
                 // instead of addition I subtract it, so I wont exceed aUpperBound
             } else {
                 random += rand.nextDouble(); // if it isn't greater or equal, I basically add it - checks for be smaller than aSize is not required, since I already respect that during random generation.
